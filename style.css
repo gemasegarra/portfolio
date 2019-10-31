@@ -169,8 +169,14 @@ hr {
   text-decoration: none;
   color: #2f416d;
   font-size: 0.7rem;
-  padding: 20px;
+  padding: 30px;
   background-color: #94ceca;
+}
+
+.author {
+  color: white;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
 }
 
 /* ARROW BUTTON */
