@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='utf-8' />
+  <meta name='viewport'
+    content='width=device-width, minimum-scale = 1.0, initial-scale = 1.0, maximum-scale = 5.0, user-scalable=yes, shrink-to-fit=no' />
+  <meta name='description' content='Portfolio' />
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap' rel='stylesheet' />
+  <script src='https://kit.fontawesome.com/102a8e9465.js' crossorigin='anonymous'></script>
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
+    integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous' />
+  <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'
+    integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous'>
+  </script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'
+    integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1' crossorigin='anonymous'>
+  </script>
+  <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'
+    integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous'>
+  </script>
+  <link rel='stylesheet' href='style.css'/>
+  <link rel='shortcut icon' href='img/favicon.ico'>
+  <script src='index.js'></script>
+</head>
+
+<body>
+  <section class='main-section'>
+    <!-- Navbar -->
+    <nav class='navbar navbar-expand-lg navbar-light'>
+      <a class='navbar-brand' href='#'>Gema S.</a>
+      <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarNav'
+        aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>
+        <span class='navbar-toggler-icon'></span>
+      </button>
+      <div class='collapse navbar-collapse' id='navbarNav'>
+        <ul class='navbar-nav ml-auto'>
+          <li class='nav-item'>
+            <a class='nav-link' href='#aboutme'>About me</a>
+          </li>
+          <li class='nav-item'>
+            <a class='nav-link' href='#skills'>Skills</a>
+          </li>
+          <li class='nav-item'>
+            <a class='nav-link' href='#projects'>Projects</a>
+          </li>
+          <li class='nav-item'>
+            <a class='nav-link' href='#'>Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Title section -->
+    <h1>Hi, I'm Gema!</h1>
+    <img id='profile-pic' src='img/pic.jpg' alt='profile pic' />
+    <h3>I write code.</h3>
+  </section>
+
+  <!-- About me section -->
+  <section class='about-me'>
+    <h2 id='aboutme'>About me:</h2>
+    <p class='intro'>
+      Hey, I'm Gema! A Classics graduate learning to code. I'm also mom of
+      little human (second one on his way 🤰🏻) and a bunch of cats.
+    </p>
+    <img class='coding' src='img/coding.png' alt='computer' />
+    <p class='intro'>
+      If you're interested in my learning progress you can check out my blog
+      <a href='https://gemasegarra.github.io/personal-blog/'>here</a>.
+    </p>
+    <hr/>
+  </section>
+
+  <!-- Skills section -->
+  <section class='skills-section' id='skills'>
+    <div class='container'>
+      <h2>Skills:</h2>
+      <p>(And things I'm learning)</p>
+      <div class='row'>
+        <div class='skills-box col-lg-4'>
+          <i class='icon fab fa-js-square fa-4x'></i>
+          <h3 class='skills-title'>Javascript</h3>
+        </div>
+        <div class='skills-box col-lg-4'>
+          <i class='icon fab fa-css3-alt fa-4x'></i><i class='icon-html fab fa-html5 fa-4x'></i>
+          <h3 class='skills-title'>CSS & HTML</h3>
+        </div>
+        <div class='skills-box col-lg-4'>
+          <i class='icon fab fa-node fa-4x'></i>
+          <h3 class='skills-title'>Node JS</h3>
+        </div>
+        <div class='skills-box col-lg-4'>
+          <img class='play' src='img/play-station.png' alt='gaming' />
+          <h3 class='skills-title'>Gaming</h3>
+        </div>
+        <div class='skills-box col-lg-4'>
+          <img class='guacamole' src='img/guacamole.png' alt='nachos' />
+          <h3 class='skills-title'>Eating nachos</h3>
+        </div>
+        <div class='skills-box col-lg-4'>
+          <img class='cat' src='img/cat.png' alt='cat' />
+          <h3 class='skills-title'>Adopting cats</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects section -->
+  <section class='projects-section' id='projects'>
+    <div id='projects-carousel' class='carousel slide' data-ride='false'>
+      <div class='carousel-inner'>
+        <div class='carousel-item active container-fluid'>
+          <h2 class='projects-text'>Google Fonts Clone</h2>
+          <img class='projects-image'
+            src='https://raw.githubusercontent.com/gemasegarra/chingu-prework-v13/master/img/project.gif'
+            alt='chingu' />
+          <a class='project-link' href='https://github.com/gemasegarra/chingu-prework-v13' target='_blank'>Github
+            link</a>
+          <a class='project-link' href='https://gemasegarra.github.io/chingu-prework-v13/' target='_blank'>Deployed
+            Version</a>
+        </div>
+        <div class='carousel-item'>
+          <h2 class='projects-text'>Random Cat Generator</h2>
+          <img class='projects-image' id='cat-pic'
+            src='https://raw.githubusercontent.com/gemasegarra/100-days-of-code/master/Little-projects/random-cat/gatitos.gif'
+            alt='cat-generator' />
+          <a class='project-link'
+            href='https://github.com/gemasegarra/100-days-of-code/tree/master/Little-projects/random-cat'
+            target='_blank'>Github link</a>
+        </div>
+      </div>
+      <a class='carousel-control-prev' href='#projects-carousel' role='button' data-slide='prev'>
+        <span class='carousel-control-prev-icon'></span>
+      </a>
+      <a class='carousel-control-next' href='#projects-carousel' role='button' data-slide='next'>
+        <span class='carousel-control-next-icon'></span>
+      </a>
+    </div>
+    <button id='arrow-button' onClick='goUp()'>
+      <i class='fas fa-arrow-circle-up fa-lg'></i>
+    </button>
+  </section>
+
+  <!-- Contact section -->
+  <section class='footer' id='contact'>
+    <p>You can find me here: 🙋🏻‍♀️</p>
+    <a href='mailto:gema.segb@gmail.com'><i class='social-icon fas fa-envelope'></i></a>
+    <a href='https://github.com/gemasegarra' target='_blank'><i class='social-icon fab fa-github'></i></a>
+    <a href='https://twitter.com/gemasega' target='_blank'><i class='social-icon fab fa-twitter'></i></a>
+    <a href='https://www.linkedin.com/in/gemasegarra/' target='_blank'><i
+        class='social-icon fab fa-linkedin-in'></i></a>
+  </section>
+
+  <button id='arrow-button' onClick='goUp()'>
+    <i class='fas fa-arrow-circle-up fa-lg'></i>
+  </button>
+
+  <!-- Credits -->
+  <section class='credits'>
+    <div>
+      Icons made by
+      <a href='https://www.flaticon.com/authors/smalllikeart' target='_blank' title='smalllikeart'>smalllikeart</a>
+      &
+      <a href='https://www.flaticon.com/authors/freepik' target='_blank' title='Freepik'>Freepik</a>
+      from
+      <a href='https://www.flaticon.com/' target='_blank' title='Flaticon'>Flaticon</a>
+      💜
+    </div>
+  </section>
+</body>
+</html>
