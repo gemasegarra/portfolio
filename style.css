@@ -141,7 +141,11 @@ hr {
 }
 
 #cat-pic {
-  width: 49%;
+  width: 48%;
+}
+
+#portfolio {
+  width: 69.5%;
 }
 
 /* CONTACT SECTION */
