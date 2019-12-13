@@ -112,6 +112,10 @@ hr {
   width: 20%;
 }
 
+.emoji {
+  font-size: 3rem;
+}
+
 /* PROJECTS SECTION */
 
 #projects {
