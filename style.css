@@ -144,12 +144,16 @@ hr {
   color: #2f416d
 }
 
-#cat-pic {
+#cat-pic, #film-db {
   width: 48%;
 }
 
 #portfolio {
   width: 69.5%;
+}
+
+#beerflix {
+  width: 55%;
 }
 
 /* CONTACT SECTION */
