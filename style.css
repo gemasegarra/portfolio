@@ -144,8 +144,12 @@ hr {
   color: #2f416d
 }
 
-#cat-pic, #film-db {
+ #film-db {
   width: 48%;
+}
+
+#wallads {
+  width: 52%;
 }
 
 #portfolio {
