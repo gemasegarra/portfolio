@@ -34,22 +34,6 @@
         aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>
         <span class='navbar-toggler-icon'></span>
       </button>
-      <div class='collapse navbar-collapse' id='navbarNav'>
-        <ul class='navbar-nav ml-auto'>
-          <li class='nav-item'>
-            <a class='nav-link' href='#aboutme'>About me</a>
-          </li>
-          <li class='nav-item'>
-            <a class='nav-link' href='#skills'>Skills</a>
-          </li>
-          <li class='nav-item'>
-            <a class='nav-link' href='#projects'>Projects</a>
-          </li>
-          <li class='nav-item'>
-            <a class='nav-link' href='#contact'>Contact</a>
-          </li>
-        </ul>
-      </div>
     </nav>
     <!-- Title section -->
     <h1>Hi, I'm Gema!</h1>
@@ -57,137 +41,16 @@
     <h3>I write code.</h3>
   </section>
 
-  <!-- About me section -->
-  <section class='about-me'>
-    <h2 id='aboutme'>About me:</h2>
-    <p class='intro'>
-      Hey, I'm Gema! A Classics graduate learning to code. I'm also mom of two
-      little humans and a bunch of cats.
-    </p>
-    <img class='coding' src='img/coding.png' alt='computer' />
-    <p class='intro'>
-      If you're interested in my learning progress you can check out
-      <a href='https://gema-blog.herokuapp.com/' target='_blank' rel="noopener"> my blog</a>.
-    </p>
-    <hr>
-  </section>
+  <div class='underconstruction'>
+    <p>I'm working on the second version of my portfolio right now.</p> 
+    <p>In the meantime you can check out some of
+      my projects on <a href='https://github.com/gemasegarra' target='_blank' rel="noopener" aria-label="github">Github!</a></p>
+    <img src="img/undraw_under_construction_46pa.svg" class='svg' alt="Under construction"></div>
 
-  <!-- Skills section -->
-  <section class='skills-section' id='skills'>
-    <div class='container'>
-      <h2>Skills:</h2>
-      <p>(And things I'm learning)</p>
-      <div class='row'>
-        <div class='skills-box col-lg-4'>
-          <i class='icon fab fa-js-square fa-4x'></i>
-          <h3 class='skills-title'>Javascript</h3>
-        </div>
-        <div class='skills-box col-lg-4'>
-          <i class='icon fab fa-css3-alt fa-4x'></i><i class='icon-html fab fa-html5 fa-4x'></i>
-          <h3 class='skills-title'>CSS & HTML</h3>
-        </div>
-        <div class='skills-box col-lg-4'>
-          <i class='icon fab fa-node fa-4x'></i>
-          <h3 class='skills-title'>Node JS</h3>
-        </div>
-        <div class='skills-box col-lg-4'>
-          <i class='icon fab fa-react fa-4x'></i>
-          <h3 class='skills-title'>React</h3>
-        </div>
-        <div class='skills-box col-lg-4'>
-          <div class='emoji'>< 💅 ></div>
-          <h3 class='skills-title'>Styled components</h3>
-        </div>
-        <div class='skills-box col-lg-4'>
-          <i class='icon fab fa-git fa-4x'></i>
-          <h3 class='skills-title'>Git</h3>
-        </div>
-        <div class='skills-box col-lg-4'>
-          <img class='play' src='img/play-station.png' alt='video games' />
-          <h3 class='skills-title'>Gaming</h3>
-        </div>
-        <div class='skills-box col-lg-4'>
-          <img class='guacamole' src='img/guacamole.png' alt='nachos' />
-          <h3 class='skills-title'>Eating nachos</h3>
-        </div>
-        <div class='skills-box col-lg-4'>
-          <img class='cat' src='img/cat.png' alt='cat' />
-          <h3 class='skills-title'>Adopting cats</h3>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects section -->
-  <section class='projects-section' id='projects'>
-    <div id='projects-carousel' class='carousel slide' data-ride='false'>
-      <div class='carousel-inner'>
-        <div class='carousel-item active'>
-          <h2 class='projects-text'>Google Fonts Clone</h2>
-          <img class='projects-image'
-            src='https://raw.githubusercontent.com/gemasegarra/chingu-prework-v13/master/img/project.gif'
-            alt='chingu' />
-          <a class='project-link' href='https://github.com/gemasegarra/chingu-prework-v13' target='_blank'
-            rel="noopener">Github
-            link</a>
-          <a class='project-link' href='https://gemasegarra.github.io/chingu-prework-v13/' target='_blank'
-            rel="noopener">Deployed
-            Version</a>
-        </div>
-        <div class='carousel-item'>
-          <h2 class='projects-text'>The Film DB 🍿</h2>
-          <img class='projects-image' id='film-db'
-            src='https://raw.githubusercontent.com/gemasegarra/portfolio/master/img/filmdb.gif'
-            alt='film db gif' />
-          <a class='project-link'
-            href='https://github.com/chingu-voyages/v13-geckos-team-03'
-            target='_blank' rel="noopener">Github link</a>
-            <a class='project-link' href=' https://chingu-voyages.github.io/v13-geckos-team-03/' target='_blank'
-            rel="noopener">Deployed
-            Version</a>
-            <p>Project for the Chingu Collabs Voyage 13 made with two other developers.</p>
-        </div>
-        <div class='carousel-item'>
-          <h2 class='projects-text'>Beerflix</h2>
-          <img class='projects-image' id='beerflix'
-            src='https://raw.githubusercontent.com/gemasegarra/beerflix/master/src/images/beerflix.gif'
-            alt='beerflix gif' />
-          <a class='project-link'
-            href='https://github.com/gemasegarra/beerflix'
-            target='_blank' rel="noopener">Github link</a>
-            <p>App that shows a list of beers and some info about them loading data via a beer API.</p>
-       </div>
-        <div class='carousel-item'>
-          <h2 class='projects-text'>WallAds</h2>
-          <img class='projects-image' id='wallads'
-            src='https://raw.githubusercontent.com/gemasegarra/wallads/master/public/img/func.gif'
-            alt='wallads' />
-          <a class='project-link'
-            href='https://github.com/gemasegarra/wallAds'
-            target='_blank' rel="noopener">Github link</a>
-            <p>WallAds! is an app that shows a list of (fake) ads loading data via a REST API and it lets users create and edit their own ads.
-            </p>
-        </div>
-        <div class='carousel-item'>
-          <h2 class='projects-text'>Portfolio</h2>
-          <img class='projects-image' id='portfolio'
-            src='https://raw.githubusercontent.com/gemasegarra/portfolio/master/img/portfolio.gif?token=AJRTL2KJKNXVH5H3PMUXLNC5XM77A'
-            alt='portfolio' />
-          <a class='project-link' href='https://github.com/gemasegarra/portfolio' target='_blank'>Github link</a>
-        </div>
-      </div>
-      <a class='carousel-control-prev' href='#projects-carousel' role='button' data-slide='prev' title="previous-slide" aria-label="show previous slide">
-        <span class='carousel-control-prev-icon'></span>
-      </a>
-      <a class='carousel-control-next' href='#projects-carousel' role='button' data-slide='next' title="next-slide" aria-label="show next slide">
-        <span class='carousel-control-next-icon'></span>
-      </a>
-    </div>
-  </section>
 
   <!-- Contact section -->
   <section class='footer' id='contact'>
-    <p>You can find me here: 🙋🏻‍♀️</p>
+    <p>You can find me here 🙋🏻‍♀️</p>
     <a href='mailto:gema.segb@gmail.com' aria-label="Email"><i class='social-icon fas fa-envelope'></i></a>
     <a href='https://github.com/gemasegarra' target='_blank' rel="noopener" aria-label="github"><i
         class='social-icon fab fa-github'></i></a>
@@ -201,20 +64,7 @@
     <i class='fas fa-arrow-circle-up fa-lg'></i>
   </button>
 
-  <!-- Credits -->
-  <section class='credits'>
-    <div class="author">
-      Gema S. | october 2019 <br>
-    </div>
-    Icons made by
-    <a href='https://www.flaticon.com/authors/smalllikeart' target='_blank' rel="noopener"
-      title='author smalllikeart'>smalllikeart</a>
-    &
-    <a href='https://www.flaticon.com/authors/freepik' target='_blank' rel="noopener" title='author Freepik'>Freepik</a>
-    from
-    <a href='https://www.flaticon.com/' target='_blank' rel="noopener" title='origin Flaticon'>Flaticon</a>
-    💜
-  </section>
+ 
 </body>
 
 </html>

@@ -210,3 +210,12 @@ hr {
 #arrow-button:hover {
   color: #14868c;
 }
+
+.svg {
+  width: 50%; 
+
+}
+
+.underconstruction {
+  margin-top: 20px;
+}
